@@ -60,6 +60,3 @@ We use `NumPy` and standard Python `math` module trig functions to convert to/fr
 
 ### Results
 _Cool photos/videos will be added shortly!_
-
-## LQR Control
-_This will be implemented in next month or so! Anticipating completion at the end of March 2025_
