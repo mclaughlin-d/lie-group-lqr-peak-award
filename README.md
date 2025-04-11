@@ -57,6 +57,3 @@ Once the same is done for roll (as in, you have both $\theta_{dp}$ and $\theta_{
 
 ### Implementation
 We use `NumPy` and standard Python `math` module trig functions to convert to/from SO(2) and perform matrix operations (multiplication, inverse). The `lie_group_pitch_roll` function found in `dynamixel_control.py` handles this conversion and performs the math operations explained in the previous section to get pich/roll increments. These are then added to the goal pitch and roll so they are updated before the Dynamixel angles are calculated and written. The rest of the code in that file handles actually talking to and controlling the dynamixels. 
-
-### Results
-_Cool photos/videos will be added shortly!_
